@@ -1,0 +1,26 @@
+.button-twitter {
+    color: white;
+    padding: 10px 15px;
+    background: #D23233;
+    border-radius: 3px;
+}
+
+.button-twitter:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.button-medium {
+    color: #808080;
+    border: 1px solid #808080;
+    padding: 10px 15px;
+    border-radius: 500px; /* for rounded corners vs oval shape */
+    opacity: 0.6;
+    font-weight: lighter;
+}
+
+.button-medium:hover {
+    color: #808080;
+    text-decoration: none;
+    opacity: 1; /* make it darker */
+}

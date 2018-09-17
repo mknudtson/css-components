@@ -1,0 +1,11 @@
+/* modify utility classes in these files */
+/* when you override bootstrap, conflict will happen */
+/* higher specificity wins */
+.dropdown-menu {
+    color: #808080;
+    box-shadow: none;
+}
+
+.dropdown-menu > li > a { /* to bump up specificity ; > = immediate child as opposed to child or grandchild */
+    color: #808080;
+}

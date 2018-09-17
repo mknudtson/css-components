@@ -1,0 +1,10 @@
+.badge {
+    background: red;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: -25px;
+    left: -20px;
+    /* to adjust values: inspect element > right > styles > element.style > experiment there in console */
+
+}

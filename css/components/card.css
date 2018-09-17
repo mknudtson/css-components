@@ -1,0 +1,31 @@
+.card {
+    position: relative;
+    height: 250px;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    background: linear-gradient(to bottom left, 
+                                    rgba(0, 0, 0, 0.6),
+                                    rgba(0, 0, 0, 0.4)),
+                                    url("https://source.unsplash.com/random/300x250");
+    background-size: cover;
+    margin-bottom: 300px;
+}
+
+.card-category {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.card-description {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.card > img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 1px solid white;
+}
